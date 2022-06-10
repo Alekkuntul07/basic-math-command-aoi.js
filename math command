@@ -1,0 +1,19 @@
+bot.command({
+    name: "math",
+    code: `$title[1;Math]
+$color[1;RANDOM]
+$description[1;Requested By: <@$authorID>
+\`The Result is: $math[$message[1]]\`
+
+\`+ = Addition
+- = Subtraction
+/ = Division
+* = Multiplication
+() = Parathenses to put equations in\`]
+$addTimestamp[1]
+`
+})
+
+
+subscribe my youtube
+https://www.youtube.com/channel/UCXLqf8iEB_fV003L02BSKTQ
